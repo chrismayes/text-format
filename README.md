@@ -14,3 +14,5 @@ Formatting options for plain text data (javascript/ES6)
   const formatted = formatPhone("1234567890");
   console.log(formatted);
 ```
+
+* Dependency: [MomentJS](https://www.npmjs.com/package/moment)
