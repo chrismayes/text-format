@@ -1,6 +1,6 @@
 {
   "name": "text-format",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Formatting options for plain text data",
   "main": "src/textFormat.js",
   "scripts": {

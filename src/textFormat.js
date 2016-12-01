@@ -1,6 +1,3 @@
-//Import 3rd Party Dependencies
-import Moment from "moment";
-
 export function formatDate(value) {
   return (
     value === undefined
