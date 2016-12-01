@@ -14,8 +14,6 @@ export function formatPhone(number) {
   //Split the number into groups (3,3,4)
   const numberGroups = stringNumber.match(/^(\d{3})(\d{3})(\d{4})$/);
   return (!numberGroups) ? number : "(" + numberGroups[1] + ") " + numberGroups[2] + "-" + numberGroups[3];
-
-  //return '+' + number;
 }
 
 export function formatSelectByName(name, options) {
