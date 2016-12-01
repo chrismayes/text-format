@@ -10,8 +10,8 @@ Formatting options for plain text data (javascript/ES6)
 ## Example
 
 ```javascript
-  import * from "text-format";
-  const formatted = formatPhone("1234567890");
+  import * as textFormat from "text-format";
+  const formatted = textFormat.formatPhone("1234567890");
   console.log(formatted);
 ```
 
