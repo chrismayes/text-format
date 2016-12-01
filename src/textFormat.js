@@ -1,3 +1,9 @@
+import Moment from "moment";
+
+exports.printMsg = function() {
+  console.log("Text formatting library");
+}
+
 export function formatDate(value) {
   return (
     value === undefined
