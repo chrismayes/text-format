@@ -38,10 +38,14 @@ export function formatSelectByValue(value, options) {
 
 export function formatYesNo(value) {
   return (
-    value === undefined
-    || value === null
-    || value.trim() === ""
-    ? value ? "Yes" : "No"
-    : "No"
+    value === undefined || value === null
+    ? "No"
+    : typeof value === "string"
+      ? value.trim().length && value.trim() !== "0"
+        ? "Yes"
+        : "No"
+      : value
+        ? "Yes"
+        : "No"
   )
 }
